@@ -59,6 +59,6 @@ function findUserById(id) {
 // console.log(findUser(1));
 
 getUsers();
-findUser(1);
+findUserById(1);
 
 module.exports = findUserById;
